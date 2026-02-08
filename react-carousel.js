@@ -61,7 +61,7 @@
         secondaryHref:"https://wa.me/971545741959",
         secondaryText:"WhatsApp Us",
         // bg removed
-        logos: ["assets/Al-Logo.webp", "assets/Arasan.webp", "assets/B2.webp", "assets/Fishspa.webp", "assets/NS-Logo.webp", "assets/Smoke.webp"]
+        logos: ["/assets/brand/Al-Logo.webp", "/assets/brand/Arasan.webp", "/assets/brand/B2.webp", "/assets/brand/Fishspa.webp", "/assets/brand/NS-Logo.webp", "/assets/brand/Smoke.webp"]
       },
       {
         title:"Professional Printing Services",
@@ -80,7 +80,7 @@
         secondaryHref:"https://wa.me/971545741959",
         secondaryText:"WhatsApp Us",
         // bg removed
-        logos: ["assets/Al-Types-of-printing-01.jpg"]
+        logos: ["/assets/signage/Al-Types-of-printing-01.jpg"]
       },
       {
         title:"Official Company Stamps & Seals",
@@ -89,7 +89,7 @@
         secondaryHref:"https://wa.me/971545741959",
         secondaryText:"WhatsApp Us",
         // bg removed
-        logos: ["assets/stamp-ad-1.jpeg", "assets/Stamp-Add-1.webp", "assets/D-Technoprint-Custom-Rubber-Stamp-01.jpg", "assets/Embossing-Seal-01.png", "assets/Custom-Rubber-Stamp-1.webp", "assets/Stamp-Making-Machine-01.jpg"],
+        logos: ["/assets/stamps/stamp-ad-1.jpeg", "/assets/stamps/Stamp-Add-1.webp", "/assets/stamps/D-Technoprint-Custom-Rubber-Stamp-01.jpg", "/assets/stamps/Embossing-Seal-01.png", "/assets/stamps/Custom-Rubber-Stamp-1.webp", "/assets/stamps/Stamp-Making-Machine-01.jpg"],
 
       },
       {

@@ -50,7 +50,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const captionText = document.createElement('div');
   captionText.id = 'caption';
   captionText.style.cssText = `
-    margin-top: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 90%;
     text-align: center;
     color: #f1f1f1;

@@ -1,7 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
   "cleanUrls": true,
   "outputDirectory": "public",
+  "buildCommand": "node build.js",
   "rewrites": [
     {
       "source": "/feedback/:id",
