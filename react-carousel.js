@@ -70,7 +70,7 @@
         secondaryHref:"https://wa.me/971545741959",
         secondaryText:"View Services",
         // bg removed
-        logos: ["assets/printing/printing-flyer-dtech.webp", "assets/printing/printing-flyer-xpress.webp", "assets/printing/printing-chefteck.webp", "assets/printing/printing-membership-1.webp", "assets/printing/printing-membership-2.webp", "assets/printing/printing-ababeel.webp", "assets/printing/printing-adroit.webp"],
+        logos: ["/assets/printing/printing-flyer-dtech.webp", "/assets/printing/printing-flyer-xpress.webp", "/assets/printing/printing-chefteck.webp", "/assets/printing/printing-membership-1.webp", "/assets/printing/printing-membership-2.webp", "/assets/printing/printing-ababeel.webp", "/assets/printing/printing-adroit.webp"],
 
       },
       {
@@ -99,7 +99,7 @@
         secondaryHref:"https://wa.me/971545741959",
         secondaryText:"WhatsApp Us",
         // bg removed
-        logos: ["assets/promotional/promo-bottles.jpeg", "assets/promotional/promo-bottles-2.jpeg", "assets/promotional/promo-bag.jpeg", "assets/promotional/promo-trophy.jpeg", "assets/promotional/promo-nameplate.jpeg", "assets/promotional/promo-mugs.jpeg", "assets/promotional/promo-badge-1.jpeg", "assets/promotional/promo-badge-2.jpeg", "assets/promotional/promo-badge-3.jpeg", "assets/promotional/promo-badge-wood.jpeg", "assets/promotional/promo-nameplate-desk.jpeg", "assets/promotional/promo-badge-metal.jpeg"],
+        logos: ["/assets/promotional/promo-bottles.jpeg", "/assets/promotional/promo-bottles-2.jpeg", "/assets/promotional/promo-bag.jpeg", "/assets/promotional/promo-trophy.jpeg", "/assets/promotional/promo-nameplate.jpeg", "/assets/promotional/promo-mugs.jpeg", "/assets/promotional/promo-badge-1.jpeg", "/assets/promotional/promo-badge-2.jpeg", "/assets/promotional/promo-badge-3.jpeg", "/assets/promotional/promo-badge-wood.jpeg", "/assets/promotional/promo-nameplate-desk.jpeg", "/assets/promotional/promo-badge-metal.jpeg"],
 
       }
     ];
