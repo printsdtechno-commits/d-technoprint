@@ -33,17 +33,41 @@ function copyDir(src, dest) {
 // Files to copy
 const files = fs.readdirSync(__dirname);
 files.forEach(file => {
-    // Skip node_modules, .git, .vercel, public, and build script itself
-    if (['node_modules', '.git', '.vercel', 'public', 'build.js', 'package.json', 'package-lock.json', 'pnpm-lock.yaml'].includes(file)) return;
+    // Skip these directories/files
+    const ignored = [
+        'node_modules', 
+        '.git', 
+        '.vercel', 
+        'public', 
+        'build.js', 
+        'package.json', 
+        'package-lock.json', 
+        'pnpm-lock.yaml',
+        '.gitignore',
+        '.vercelignore',
+        '.env',
+        '.env.local'
+    ];
     
-    // Copy HTML, CSS, JS, JSON
-    if (file.endsWith('.html') || file.endsWith('.css') || file.endsWith('.js') || file.endsWith('.json')) {
-        copyFile(path.join(__dirname, file), path.join(publicDir, file));
-    }
+    if (ignored.includes(file)) return;
     
-    // Copy assets folder
-    if (file === 'assets') {
-        copyDir(path.join(__dirname, file), path.join(publicDir, file));
+    // Copy all other files (images, html, css, etc.)
+    const srcPath = path.join(__dirname, file);
+    const destPath = path.join(publicDir, file);
+
+    const stats = fs.statSync(srcPath);
+    if (stats.isDirectory()) {
+        // Only copy specific directories if needed, or copy all non-ignored directories
+        // In this case, 'assets' is the main one, but we might have others.
+        // Let's explicitly copy assets and dtechnoprint-theme (if needed)
+        // Actually, copying ALL directories might be dangerous if there are source folders.
+        // Let's stick to 'assets' and 'dtechnoprint-theme' if it has assets.
+        if (file === 'assets') {
+            copyDir(srcPath, destPath);
+        }
+    } else {
+        // Copy all files in root (html, css, js, webp, jpg, png, etc.)
+        copyFile(srcPath, destPath);
     }
 });
 
