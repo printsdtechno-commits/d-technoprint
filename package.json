@@ -6,7 +6,8 @@
     "node": "24.x"
   },
   "scripts": {
-    "start": "serve"
+    "start": "serve",
+    "build": "mkdir -p dist && cp *.html *.css *.js *.json dist/ && cp -r assets dist/"
   },
   "keywords": [],
   "author": "",
