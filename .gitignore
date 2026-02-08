@@ -139,3 +139,6 @@ Thumbs.db
 *.exe
 *.zip
 podman_release.json
+
+.vercel
+.env*.local
