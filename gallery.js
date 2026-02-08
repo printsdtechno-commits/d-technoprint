@@ -97,23 +97,29 @@ document.addEventListener("DOMContentLoaded", function() {
   // Gallery Logic
   let currentImages = [];
   let currentIndex = 0;
+  let currentTitle = '';
 
-  const items = document.querySelectorAll('[data-gallery-item]');
-  
-  items.forEach(item => {
-    item.addEventListener('click', function() {
-      const title = this.getAttribute('data-title');
-      const logosStr = this.getAttribute('data-logos');
+  // Use Event Delegation to handle clicks on [data-gallery-item]
+  document.addEventListener('click', function(e) {
+    const target = e.target.closest('[data-gallery-item]');
+    if (target) {
+      // Prevent default behavior if it's a link or button
+      e.preventDefault(); 
+      e.stopPropagation(); // Stop propagation to prevent card flip
+
+      const title = target.getAttribute('data-title');
+      const logosStr = target.getAttribute('data-logos');
       
       if (!logosStr) return;
 
       currentImages = logosStr.split(',').map(s => s.trim());
       currentIndex = 0;
+      currentTitle = title || '';
 
       if (currentImages.length > 0) {
-        openModal(currentImages[0], title);
+        openModal(currentImages[0], currentTitle);
       }
-    });
+    }
   });
 
   function openModal(imgSrc, title) {
@@ -132,11 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
     else currentIndex = index;
 
     modalContent.src = currentImages[currentIndex];
-    
-    // Update caption if needed
-    const activeItem = document.querySelector(`[data-logos*="${currentImages[currentIndex]}"]`);
-    const title = activeItem ? activeItem.getAttribute('data-title') : '';
-    captionText.innerText = title ? `${title} (${currentIndex + 1}/${currentImages.length})` : '';
+    captionText.innerText = currentTitle ? `${currentTitle} (${currentIndex + 1}/${currentImages.length})` : '';
   }
 
   nextBtn.onclick = function(e) {
