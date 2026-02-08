@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/feedback/:id",
+      "destination": "/api/feedback/:id"
+    }
+  ],
+  "functions": {
+    "api/users/**/*.js": {
+      "maxDuration": 30
+    }
+  }
+}
