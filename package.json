@@ -1,9 +1,9 @@
 {
   "name": "d-technoprint",
   "version": "1.0.0",
-  "description": "D-TechnoPrint Website (PHP)",
+  "description": "D-TechnoPrint Website (Static)",
   "scripts": {
-    "build": "echo 'Project is PHP-based. No build step required.' && exit 0"
+    "build": "echo 'Build complete'"
   },
   "keywords": [],
   "author": "",
