@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "serve",
-    "build": "mkdir -p dist && cp *.html *.css *.js *.json dist/ && cp -r assets dist/"
+    "build": "mkdir -p public && cp *.html *.css *.js *.json public/ && cp -r assets public/"
   },
   "keywords": [],
   "author": "",
