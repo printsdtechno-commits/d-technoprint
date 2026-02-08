@@ -9,7 +9,7 @@
   "packageManager": "pnpm@7.5.1",
   "scripts": {
     "start": "serve",
-    "build": "mkdir -p public && cp *.html *.css *.js *.json public/ && cp -r assets public/"
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",
