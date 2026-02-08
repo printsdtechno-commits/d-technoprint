@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact d-technoprint | Email, WhatsApp, Quote</title>
+<meta name="description" content="Contact D-TechnoPrint, the top Advertising company in Dubai. Get quotes for Printing services Dubai, Digital printing Dubai, and Promotional items Dubai.">
+<meta name="keywords" content="Advertising company in Dubai, Printing services Dubai, Digital printing Dubai, Branding company UAE, Signage printing Dubai, Promotional items Dubai">
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.d-technoprint.com/contact">
+<meta property="og:title" content="Contact d-technoprint | Email, WhatsApp, Quote">
+<meta property="og:description" content="Contact D-TechnoPrint, the top Advertising company in Dubai. Get quotes for Printing services Dubai, Digital printing Dubai, and Promotional items Dubai.">
+<meta property="og:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.d-technoprint.com/contact">
+<meta property="og:site_name" content="D-TechnoPrint">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact d-technoprint | Email, WhatsApp, Quote">
+<meta name="twitter:description" content="Contact D-TechnoPrint, the top Advertising company in Dubai. Get quotes for Printing services Dubai, Digital printing Dubai, and Promotional items Dubai.">
+<meta name="twitter:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.php" aria-label="D-TechnoPrint">
+      <img class="logo-img" src="D-technoprint%20dubai.webp" alt="D-TechnoPrint logo">
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+    <label for="menu-toggle" class="menu-btn" aria-label="Open menu"><i class="bi bi-list"></i></label>
+    <nav class="nav">
+      <label for="menu-toggle" class="menu-close" aria-label="Close menu"></label>
+      <a href="index.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="services.php">Services</a>
+      <a href="portfolio.php">Portfolio</a>
+      <a href="contact.php">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero-dark"><div id="hero-carousel"></div></section>
+
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-center" style="margin-top: 60px; margin-bottom: 60px;">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="reveal reveal-left" style="margin-bottom: 30px;">Visit Our Office</h2>
+          <div class="reveal reveal-left" style="font-size: 1.1rem;">
+             <p style="margin-bottom: 20px;">We are conveniently located in Naif, Dubai. Drop by for a consultation or to see our print samples.</p>
+             <ul class="list-unstyled contact-info-list">
+               <li class="mb-3 d-flex"><i class="bi bi-geo-alt-fill text-brand me-3 fs-5"></i> <span>54-58 Street 29B – Naif – Dubai</span></li>
+               <li class="mb-3 d-flex"><a href="mailto:info@d-technoprint.com" class="text-decoration-none text-body d-flex"><i class="bi bi-envelope-fill text-brand me-3 fs-5"></i> <span>info@d-technoprint.com</span></a></li>
+               <li class="mb-3 d-flex"><a href="https://wa.me/971545741959" target="_blank" rel="noopener" class="text-decoration-none text-body d-flex"><i class="bi bi-whatsapp text-brand me-3 fs-5"></i> <span>+971 54 574 1959</span></a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="map-container reveal reveal-right" style="height: 400px; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+            <iframe src="https://maps.google.com/maps?q=54-58+Street+29B+Naif+Dubai&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2 class="reveal">Quick Quote Form</h2>
+      <div id="contact-form-root"></div>
+      
+      
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <img src="D-technoprint%20dubai.webp" alt="D-TechnoPrint" class="footer-logo" style="max-width: 150px; margin-bottom: 15px;">
+      <p>Advertising & Printing Company in Dubai</p>
+      <div class="footer-social">
+        <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <div class="footer-links">
+        <a href="index.php">Home</a>
+        <a href="about.php">About Us</a>
+        <a href="portfolio.php">Portfolio</a>
+        <a href="contact.php">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Our Specialties</h4>
+      <div class="footer-links">
+        <a href="services.php">Rubber Stamps Dubai</a>
+        <a href="services.php">Digital & Offset Printing</a>
+        <a href="services.php">Signage & Branding</a>
+        <a href="services.php">Corporate Gifts & Mugs</a>
+        <a href="services.php">Business Cards & Flyers</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="footer-contact-list">
+        <li><a href="https://maps.google.com/?q=54-58+Street+29B+Naif+Dubai" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill"></i> 54-58 Street 29B – Naif – Dubai</a></li>
+        <li><a href="mailto:info@d-technoprint.com"><i class="bi bi-envelope-fill"></i> info@d-technoprint.com</a></li>
+        <li><a href="https://wa.me/971545741959" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> +971 545741959</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container subfooter">
+    <div>© D-TechnoPrint</div>
+    <button class="back-to-top" aria-label="Back to Top">Back to Top <i class="bi bi-arrow-up"></i></button>
+    <div>Designed by <a href="index.php" style="color: inherit; text-decoration: none;">d-technoprint.com</a></div>
+  </div>
+</footer>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
+<script>
+  window.FIREBASE_CONFIG = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
+  };
+</script>
+<script src="react-carousel.js"></script>
+<script src="contact-form-react.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="animations.js"></script>
+</body></html>
