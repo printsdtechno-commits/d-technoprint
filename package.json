@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "D-TechnoPrint Website (Static)",
   "scripts": {
-    "build": "echo 'Build complete'"
+    "start": "serve"
   },
   "keywords": [],
   "author": "",
