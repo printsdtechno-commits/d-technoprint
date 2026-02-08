@@ -1,0 +1,14 @@
+{
+  "name": "d-technoprint",
+  "version": "1.0.0",
+  "description": "D-TechnoPrint Website (Static)",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
