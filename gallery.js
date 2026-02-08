@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.9);
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.95);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -23,75 +23,90 @@ document.addEventListener("DOMContentLoaded", function() {
   closeBtn.style.cssText = `
     position: absolute;
     top: 20px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
+    right: 30px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
     cursor: pointer;
-    z-index: 10000;
+    z-index: 10001;
+    line-height: 1;
+    transition: 0.3s;
   `;
+  closeBtn.onmouseover = () => closeBtn.style.color = "#bbb";
+  closeBtn.onmouseout = () => closeBtn.style.color = "#fff";
   closeBtn.onclick = closeModal;
 
   const modalContent = document.createElement('img');
   modalContent.id = 'modal-image';
   modalContent.style.cssText = `
-    margin: auto;
     display: block;
     max-width: 90%;
     max-height: 80vh;
-    border-radius: 5px;
-    animation: zoom 0.6s;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    animation: zoom 0.4s ease-out;
   `;
 
   const captionText = document.createElement('div');
   captionText.id = 'caption';
   captionText.style.cssText = `
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    font-size: 1.2rem;
-  `;
-
-  const navContainer = document.createElement('div');
-  navContainer.style.cssText = `
-    display: flex;
-    gap: 20px;
     margin-top: 15px;
+    width: 90%;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
   `;
 
+  // Create Navigation Arrows
   const prevBtn = document.createElement('button');
-  prevBtn.innerText = '❮ Prev';
+  prevBtn.innerHTML = '&#10094;'; // Left angle quote
   prevBtn.style.cssText = `
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
     background: transparent;
-    border: 1px solid #fff;
+    border: none;
     color: #fff;
-    padding: 10px 20px;
+    font-size: 50px;
     cursor: pointer;
-    border-radius: 5px;
+    z-index: 10001;
+    padding: 10px;
+    transition: 0.3s;
+    user-select: none;
+    outline: none;
   `;
-  
+  prevBtn.onmouseover = () => prevBtn.style.color = "#bbb";
+  prevBtn.onmouseout = () => prevBtn.style.color = "#fff";
+
   const nextBtn = document.createElement('button');
-  nextBtn.innerText = 'Next ❯';
+  nextBtn.innerHTML = '&#10095;'; // Right angle quote
   nextBtn.style.cssText = `
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
     background: transparent;
-    border: 1px solid #fff;
+    border: none;
     color: #fff;
-    padding: 10px 20px;
+    font-size: 50px;
     cursor: pointer;
-    border-radius: 5px;
+    z-index: 10001;
+    padding: 10px;
+    transition: 0.3s;
+    user-select: none;
+    outline: none;
   `;
+  nextBtn.onmouseover = () => nextBtn.style.color = "#bbb";
+  nextBtn.onmouseout = () => nextBtn.style.color = "#fff";
 
-  navContainer.appendChild(prevBtn);
-  navContainer.appendChild(nextBtn);
-
+  // Append elements directly to modal
   modal.appendChild(closeBtn);
+  modal.appendChild(prevBtn);
   modal.appendChild(modalContent);
+  modal.appendChild(nextBtn);
   modal.appendChild(captionText);
-  modal.appendChild(navContainer);
   document.body.appendChild(modal);
 
   // Gallery Logic
@@ -99,13 +114,11 @@ document.addEventListener("DOMContentLoaded", function() {
   let currentIndex = 0;
   let currentTitle = '';
 
-  // Use Event Delegation to handle clicks on [data-gallery-item]
   document.addEventListener('click', function(e) {
     const target = e.target.closest('[data-gallery-item]');
     if (target) {
-      // Prevent default behavior if it's a link or button
       e.preventDefault(); 
-      e.stopPropagation(); // Stop propagation to prevent card flip
+      e.stopPropagation();
 
       const title = target.getAttribute('data-title');
       const logosStr = target.getAttribute('data-logos');
@@ -125,11 +138,15 @@ document.addEventListener("DOMContentLoaded", function() {
   function openModal(imgSrc, title) {
     modal.style.display = "flex";
     modalContent.src = imgSrc;
-    captionText.innerText = title ? `${title} (${currentIndex + 1}/${currentImages.length})` : '';
+    updateCaption();
   }
 
   function closeModal() {
     modal.style.display = "none";
+  }
+
+  function updateCaption() {
+    captionText.innerText = currentTitle ? `${currentTitle} (${currentIndex + 1}/${currentImages.length})` : '';
   }
 
   function showImage(index) {
@@ -138,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function() {
     else currentIndex = index;
 
     modalContent.src = currentImages[currentIndex];
-    captionText.innerText = currentTitle ? `${currentTitle} (${currentIndex + 1}/${currentImages.length})` : '';
+    updateCaption();
   }
 
   nextBtn.onclick = function(e) {
@@ -151,14 +168,12 @@ document.addEventListener("DOMContentLoaded", function() {
     showImage(currentIndex - 1);
   };
 
-  // Close on outside click
   modal.onclick = function(e) {
     if (e.target === modal) {
       closeModal();
     }
   };
 
-  // Keyboard support
   document.addEventListener('keydown', function(e) {
     if (modal.style.display === "flex") {
       if (e.key === "Escape") closeModal();
@@ -167,12 +182,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // Add Animation CSS
   const style = document.createElement('style');
   style.innerHTML = `
     @keyframes zoom {
-      from {transform:scale(0)} 
-      to {transform:scale(1)}
+      from {transform:scale(0.8); opacity: 0;} 
+      to {transform:scale(1); opacity: 1;}
+    }
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+      #modal-image { max-width: 95%; }
+      #caption { font-size: 1rem; }
+      button { font-size: 35px !important; padding: 5px !important; }
     }
   `;
   document.head.appendChild(style);
