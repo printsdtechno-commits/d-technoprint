@@ -46,4 +46,23 @@ document.addEventListener("DOMContentLoaded", function() {
   navLinks.forEach(function(link) {
     link.addEventListener('click', closeMenu);
   });
+
+  // Remove potential scroll locks injected by external scripts (like Lenis or Modals)
+  const html = document.documentElement;
+  const body = document.body;
+
+  function removeScrollLock() {
+      // Check for specific unwanted styles
+      const unwanted = ['overflow', 'touch-action', 'scroll-behavior', 'overscroll-behavior'];
+      
+      unwanted.forEach(prop => {
+        if (html.style[prop]) html.style.removeProperty(prop);
+        if (body.style[prop]) body.style.removeProperty(prop);
+      });
+  }
+  
+  // Run immediately and periodically
+  removeScrollLock();
+  // Check every second to ensure it stays clean
+  setInterval(removeScrollLock, 1000);
 });
