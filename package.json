@@ -1,9 +1,16 @@
 {
   "name": "d-technoprint",
   "version": "1.0.0",
-  "description": "D-TechnoPrint Website (PHP)",
+  "description": "D-TechnoPrint Website (Static)",
+  "engines": {
+    "node": "24.x",
+    "pnpm": "^7.5.1"
+  },
+  "packageManager": "pnpm@7.5.1",
   "scripts": {
-    "build": "echo 'Project is PHP-based. No build step required.' && exit 0"
+    "start": "serve",
+    "build": "node build.js",
+    "vercel-build": "node build.js"
   },
   "keywords": [],
   "author": "",
