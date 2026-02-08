@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About d-technoprint | Dubai Advertising & Printing Company</title>
+<meta name="description" content="About D-TechnoPrint, a leading Advertising company in Dubai and Branding company UAE. We provide premium Printing services Dubai with fast turnaround.">
+<meta name="keywords" content="Advertising company in Dubai, Printing services Dubai, Digital printing Dubai, Branding company UAE, Signage printing Dubai, Promotional items Dubai">
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.d-technoprint.com/about">
+<meta property="og:title" content="About d-technoprint | Dubai Advertising & Printing Company">
+<meta property="og:description" content="About D-TechnoPrint, a leading Advertising company in Dubai and Branding company UAE. We provide premium Printing services Dubai with fast turnaround.">
+<meta property="og:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.d-technoprint.com/about">
+<meta property="og:site_name" content="D-TechnoPrint">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About d-technoprint | Dubai Advertising & Printing Company">
+<meta name="twitter:description" content="About D-TechnoPrint, a leading Advertising company in Dubai and Branding company UAE. We provide premium Printing services Dubai with fast turnaround.">
+<meta name="twitter:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.php" aria-label="D-TechnoPrint">
+      <img class="logo-img" src="D-technoprint%20dubai.webp" alt="D-TechnoPrint logo">
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+    <label for="menu-toggle" class="menu-btn" aria-label="Open menu"><i class="bi bi-list"></i></label>
+    <nav class="nav">
+      <label for="menu-toggle" class="menu-close" aria-label="Close menu"></label>
+      <a href="index.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="services.php">Services</a>
+      <a href="portfolio.php">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</header>>
+
+<main>
+  <section class="hero hero-dark"><div id="hero-carousel"></div></section>
+
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-center" style="margin-top: 60px; margin-bottom: 60px;">
+        <div class="col-lg-6">
+          <h2 class="reveal reveal-left" style="margin-bottom: 30px;">About Us</h2>
+          <div class="reveal reveal-left" style="line-height: 1.8; font-size: 1.1rem; text-align: justify;">
+            <p>d-technoprint is a Dubai-based advertising and printing services company delivering creative and reliable solutions for businesses across the UAE. We specialize in transforming ideas into powerful visual communication through printing, innovative advertising, and professional branding services.</p>
+            <p>With a strong understanding of the Dubai and UAE market, we work closely with corporate clients, retail brands, real estate companies, and startups to create impactful designs and flawless print materials. From business cards and brochures to large-format signage and promotional items, we ensure precision, quality, and timely delivery in every project.</p>
+            <p>At d-technoprint, our focus is on quality, creativity, and customer satisfaction. Using modern printing technology, skilled designers, and materials, we help brands stand out in a competitive marketplace.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <img src="assets/Al-Types-of-printing-01.jpg" alt="About Us" class="img-fluid rounded shadow reveal reveal-right">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <img src="D-technoprint%20dubai.webp" alt="D-TechnoPrint" class="footer-logo" style="max-width: 150px; margin-bottom: 15px;">
+      <p>Advertising & Printing Company in Dubai</p>
+      <div class="footer-social">
+        <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <div class="footer-links">
+        <a href="index.php">Home</a>
+        <a href="about.php">About Us</a>
+        <a href="portfolio.php">Portfolio</a>
+        <a href="contact.php">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Our Specialties</h4>
+      <div class="footer-links">
+        <a href="services.php">Rubber Stamps Dubai</a>
+        <a href="services.php">Digital & Offset Printing</a>
+        <a href="services.php">Signage & Branding</a>
+        <a href="services.php">Corporate Gifts & Mugs</a>
+        <a href="services.php">Business Cards & Flyers</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="footer-contact-list">
+        <li><a href="https://maps.google.com/?q=54-58+Street+29B+Naif+Dubai" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill"></i> 54-58 Street 29B – Naif – Dubai</a></li>
+        <li><a href="mailto:info@d-technoprint.com"><i class="bi bi-envelope-fill"></i> info@d-technoprint.com</a></li>
+        <li><a href="https://wa.me/971545741959" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> +971 545741959</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container subfooter">
+    <div>© D-TechnoPrint</div>
+    <button class="back-to-top" aria-label="Back to Top">Back to Top <i class="bi bi-arrow-up"></i></button>
+    <div>Designed by <a href="index.php" style="color: inherit; text-decoration: none;">d-technoprint.com</a></div>
+  </div>
+</footer>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="react-carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="animations.js"></script>
+</body></html>

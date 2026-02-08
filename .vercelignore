@@ -1,0 +1,16 @@
+start-server.bat
+*.ps1
+*.exe
+*.appx
+*.zip
+.vscode
+podman_release.json
+README.txt
+*.php
+dtechnoprint-theme/
+debug_links.py
+update_links.py
+update_buttons.py
+update_margin.py
+test_types.php
+vercel.json

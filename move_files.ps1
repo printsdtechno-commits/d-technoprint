@@ -1,0 +1,6 @@
+Move-Item "WhatsApp Image 2026-02-03 at 5.11.24 PM.jpeg" "assets\promotional\promo-bottles.jpeg"
+Move-Item "WhatsApp Image 2026-02-03 at 5.11.24 PM1.jpeg" "assets\promotional\promo-bottles-2.jpeg"
+Move-Item "WhatsApp Image 2026-02-03 at 5.11.25 PM.jpeg" "assets\promotional\promo-bag.jpeg"
+Move-Item "WhatsApp Image 2026-02-03 at 5.11.27 PM.jpeg" "assets\promotional\promo-trophy.jpeg"
+Move-Item "WhatsApp Image 2026-02-03 at 5.11.28 PM.jpeg" "assets\promotional\promo-nameplate.jpeg"
+Move-Item "WhatsApp Image 2026-02-03 at 5.11.30 PM.jpeg" "assets\promotional\promo-mugs.jpeg"
