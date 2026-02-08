@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Our Work | Branding, Campaigns & Signage | d-technoprint Dubai</title>
+<meta name="description" content="Our Portfolio: Showcase of Printing services Dubai, Signage printing Dubai, and Branding company UAE projects. Best Advertising company in Dubai.">
+<meta name="keywords" content="Advertising company in Dubai, Printing services Dubai, Digital printing Dubai, Branding company UAE, Signage printing Dubai, Promotional items Dubai">
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.d-technoprint.com/portfolio">
+<meta property="og:title" content="Our Work | Branding, Campaigns & Signage | d-technoprint Dubai">
+<meta property="og:description" content="Our Portfolio: Showcase of Printing services Dubai, Signage printing Dubai, and Branding company UAE projects. Best Advertising company in Dubai.">
+<meta property="og:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.d-technoprint.com/portfolio">
+<meta property="og:site_name" content="D-TechnoPrint">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Our Work | Branding, Campaigns & Signage | d-technoprint Dubai">
+<meta name="twitter:description" content="Our Portfolio: Showcase of Printing services Dubai, Signage printing Dubai, and Branding company UAE projects. Best Advertising company in Dubai.">
+<meta name="twitter:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-portfolio logo-80">
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.php" aria-label="D-TechnoPrint">
+      <img class="logo-img" src="D-technoprint%20dubai.webp" alt="D-TechnoPrint logo">
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+    <label for="menu-toggle" class="menu-btn" aria-label="Open menu"><i class="bi bi-list"></i></label>
+    <nav class="nav">
+      <label for="menu-toggle" class="menu-close" aria-label="Close menu"></label>
+      <a href="index.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="services.php">Services</a>
+      <a href="portfolio.php">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</header>>
+
+<main>
+  
+
+  <section class="hero hero-dark">
+    <div id="hero-carousel"></div>
+  </section>
+  
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+    </div>
+  </div>
+
+  
+  <section class="services">
+    <div class="container">
+      <h2 class="reveal">Portfolio Highlights</h2>
+      <div class="services-list">
+        <div class="service-card card reveal" data-gallery-item data-title="Brand Identity" data-desc="Logo design and branding stationery" data-logos="assets/Al-Logo.webp, assets/Arasan.webp, assets/B2.webp, assets/Fishspa.webp, assets/NS-Logo.webp, assets/Smoke.webp">
+          <h3>Brand Identity</h3>
+          <p>Logos, stationery, guideline snippets.</p>
+        </div>
+        <div class="service-card card reveal" data-gallery-item data-title="Digital & Offset Printing" data-desc="Business cards, flyers, brochures, and catalogs" data-logos="assets/printing/printing-flyer-dtech.webp, assets/printing/printing-flyer-xpress.webp, assets/printing/printing-chefteck.webp, assets/printing/printing-membership-1.webp, assets/printing/printing-membership-2.webp, assets/printing/printing-ababeel.webp, assets/printing/printing-adroit.webp" data-grid-class="big-gallery">
+          <h3>Digital & Offset Printing</h3>
+          <p>Business cards, flyers, brochures, and catalogs.</p>
+        </div>
+        <div class="service-card card reveal" data-gallery-item data-title="Signage & Roll-ups" data-desc="Roll-ups, signage, window graphics" data-logos="assets/Al-Types-of-printing-01.jpg">
+          <h3>Signage & Roll-ups</h3>
+          <p>Roll-ups, signage, window graphics.</p>
+        </div>
+        <div class="service-card card reveal" data-gallery-item data-title="Rubber Stamps" data-desc="Custom self-inking and wooden stamps for business" data-logos="assets/stamp-ad-1.jpeg, assets/Stamp-Add-1.webp, assets/D-Technoprint-Custom-Rubber-Stamp-01.jpg, assets/Embossing-Seal-01.png, assets/Custom-Rubber-Stamp-1.webp, assets/Stamp-Making-Machine-01.jpg" data-grid-class="big-gallery">
+          <h3>Rubber Stamps</h3>
+          <p>Custom self-inking and wooden stamps.</p>
+        </div>
+        <div class="service-card card reveal" data-gallery-item data-title="Promotional Items" data-desc="Corporate gifts, mugs, pens, and customized items" data-logos="assets/promotional/promo-bottles.jpeg, assets/promotional/promo-bottles-2.jpeg, assets/promotional/promo-bag.jpeg, assets/promotional/promo-trophy.jpeg, assets/promotional/promo-nameplate.jpeg, assets/promotional/promo-mugs.jpeg, assets/promotional/promo-badge-1.jpeg, assets/promotional/promo-badge-2.jpeg, assets/promotional/promo-badge-3.jpeg, assets/promotional/promo-badge-wood.jpeg, assets/promotional/promo-nameplate-desk.jpeg, assets/promotional/promo-badge-metal.jpeg" data-grid-class="big-gallery">
+          <h3>Promotional Items</h3>
+          <p>Corporate gifts, mugs, pens, and customized items.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <img src="D-technoprint%20dubai.webp" alt="D-TechnoPrint" class="footer-logo" style="max-width: 150px; margin-bottom: 15px;">
+      <p>Advertising & Printing Company in Dubai</p>
+      <div class="footer-social">
+        <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <div class="footer-links">
+        <a href="index.php">Home</a>
+        <a href="about.php">About Us</a>
+        <a href="portfolio.php">Portfolio</a>
+        <a href="contact.php">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Our Specialties</h4>
+      <div class="footer-links">
+        <a href="services.php">Rubber Stamps Dubai</a>
+        <a href="services.php">Digital & Offset Printing</a>
+        <a href="services.php">Signage & Branding</a>
+        <a href="services.php">Corporate Gifts & Mugs</a>
+        <a href="services.php">Business Cards & Flyers</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="footer-contact-list">
+        <li><a href="https://maps.google.com/?q=54-58+Street+29B+Naif+Dubai" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill"></i> 54-58 Street 29B – Naif – Dubai</a></li>
+        <li><a href="mailto:info@d-technoprint.com"><i class="bi bi-envelope-fill"></i> info@d-technoprint.com</a></li>
+        <li><a href="https://wa.me/971545741959" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> +971 545741959</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container subfooter">
+    <div>© D-TechnoPrint</div>
+    <button class="back-to-top" aria-label="Back to Top">Back to Top <i class="bi bi-arrow-up"></i></button>
+    <div>Designed by <a href="index.php" style="color: inherit; text-decoration: none;">d-technoprint.com</a></div>
+  </div>
+</footer>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="react-carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="animations.js"></script>
+</body></html>
