@@ -6,31 +6,34 @@ document.addEventListener("DOMContentLoaded", function() {
   modal.style.cssText = `
     display: none;
     position: fixed;
-    z-index: 9999;
+    z-index: 999999;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
+    height: 100dvh;
     overflow: hidden;
     background-color: rgba(0,0,0,0.95);
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    touch-action: none;
   `;
 
   const closeBtn = document.createElement('span');
   closeBtn.innerHTML = '&times;';
   closeBtn.style.cssText = `
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: max(20px, env(safe-area-inset-top));
+    right: max(30px, env(safe-area-inset-right));
     color: #fff;
     font-size: 50px;
     font-weight: 300;
     cursor: pointer;
-    z-index: 10001;
+    z-index: 1000001;
     line-height: 1;
     transition: 0.3s;
+    padding: 10px;
   `;
   closeBtn.onmouseover = () => closeBtn.style.color = "#bbb";
   closeBtn.onmouseout = () => closeBtn.style.color = "#fff";
@@ -67,18 +70,19 @@ document.addEventListener("DOMContentLoaded", function() {
   prevBtn.style.cssText = `
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: max(20px, env(safe-area-inset-left));
     transform: translateY(-50%);
     background: transparent;
     border: none;
     color: #fff;
     font-size: 50px;
     cursor: pointer;
-    z-index: 10001;
-    padding: 10px;
+    z-index: 1000001;
+    padding: 20px;
     transition: 0.3s;
     user-select: none;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
   `;
   prevBtn.onmouseover = () => prevBtn.style.color = "#bbb";
   prevBtn.onmouseout = () => prevBtn.style.color = "#fff";
@@ -88,18 +92,19 @@ document.addEventListener("DOMContentLoaded", function() {
   nextBtn.style.cssText = `
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: max(20px, env(safe-area-inset-right));
     transform: translateY(-50%);
     background: transparent;
     border: none;
     color: #fff;
     font-size: 50px;
     cursor: pointer;
-    z-index: 10001;
-    padding: 10px;
+    z-index: 1000001;
+    padding: 20px;
     transition: 0.3s;
     user-select: none;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
   `;
   nextBtn.onmouseover = () => nextBtn.style.color = "#bbb";
   nextBtn.onmouseout = () => nextBtn.style.color = "#fff";
