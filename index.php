@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D-TechnoPrint | Advertising & Printing Services in Dubai | Fast, Premium</title>
+<meta name="description" content="Leading Advertising company in Dubai offering Printing services Dubai, Digital printing Dubai, Signage printing Dubai, and Promotional items Dubai. Your trusted Branding company UAE.">
+<meta name="keywords" content="Advertising company in Dubai, Printing services Dubai, Digital printing Dubai, Branding company UAE, Signage printing Dubai, Promotional items Dubai">
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.d-technoprint.com/">
+<meta property="og:title" content="D-TechnoPrint | Advertising & Printing Services in Dubai | Fast, Premium">
+<meta property="og:description" content="Leading Advertising company in Dubai offering Printing services Dubai, Digital printing Dubai, Signage printing Dubai, and Promotional items Dubai. Your trusted Branding company UAE.">
+<meta property="og:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.d-technoprint.com/">
+<meta property="og:site_name" content="D-TechnoPrint">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="D-TechnoPrint | Advertising & Printing Services in Dubai | Fast, Premium">
+<meta name="twitter:description" content="Leading Advertising company in Dubai offering Printing services Dubai, Digital printing Dubai, Signage printing Dubai, and Promotional items Dubai. Your trusted Branding company UAE.">
+<meta name="twitter:image" content="https://www.d-technoprint.com/D-technoprint%20dubai.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "D-TechnoPrint",
+  "image": "https://www.d-technoprint.com/D-technoprint%20dubai.webp",
+  "@id": "https://www.d-technoprint.com/#website",
+  "url": "https://www.d-technoprint.com/",
+  "telephone": "+971545741959",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Dubai",
+    "addressLocality": "Dubai",
+    "addressRegion": "Dubai",
+    "postalCode": "00000",
+    "addressCountry": "AE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.2048,
+    "longitude": 55.2708
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/dtechnoprint",
+    "https://www.instagram.com/dtechnoprint"
+  ],
+  "priceRange": "$$"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.php" aria-label="D-TechnoPrint">
+      <img class="logo-img" src="D-technoprint%20dubai.webp" alt="D-TechnoPrint logo">
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+    <label for="menu-toggle" class="menu-btn" aria-label="Open menu"><i class="bi bi-list"></i></label>
+    <nav class="nav">
+      <label for="menu-toggle" class="menu-close" aria-label="Close menu"></label>
+      <a href="index.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="services.php">Services</a>
+      <a href="portfolio.php">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero-dark">
+    <div id="hero-carousel"></div>
+  </section>
+
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> BUSINESS CARDS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> FLYERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> SIGNAGE</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ROLL-UP BANNERS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> CORPORATE GIFTS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> PERSONALIZED MUGS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> LOGO DESIGN</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> COMPANY SEALS</div>
+      <div class="ticker-item"><i class="bi bi-star-fill"></i> ID CARDS</div>
+    </div>
+  </div>
+
+  <section class="services-section section-padding bg-light">
+    <div class="container">
+      <div class="section-title">
+        <span class="services-subtitle">OUR SERVICES</span>
+        <h2 class="services-title">Printing Services Dubai</h2>
+        <p class="services-desc">From business cards to large format banners, we cover all your advertising needs.</p>
+      </div>
+      
+      <div class="services-list">
+        
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon-wrapper"><i class="bi bi-printer"></i></div>
+              <h3>Digital & Offset Printing</h3>
+            </div>
+            <div class="flip-card-back">
+              <h3>Digital & Offset Printing</h3>
+              <p>Business cards, flyers, brochures, catalogues, stickers.</p>
+              <a class="btn btn-light btn-sm mt-3" href="https://wa.me/971545741959" target="_blank" rel="noopener" style="color: var(--brand); font-weight: 600; margin-top: 50px;">WhatsApp Us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon-wrapper"><i class="bi bi-easel"></i></div>
+              <h3>Banners, Posters & Signboards</h3>
+            </div>
+            <div class="flip-card-back">
+              <h3>Banners, Posters & Signboards</h3>
+              <p>Roll-ups, large format printing, outdoor signage.</p>
+              <a class="btn btn-light btn-sm mt-3" href="https://wa.me/971545741959" target="_blank" rel="noopener" style="color: var(--brand); font-weight: 600; margin-top: 50px;">WhatsApp Us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon-wrapper"><i class="bi bi-patch-check"></i></div>
+              <h3>Rubber Stamps & Company Seals</h3>
+            </div>
+            <div class="flip-card-back">
+              <h3>Rubber Stamps & Company Seals</h3>
+              <p>Custom sizes, quick turnaround, durable materials.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon-wrapper"><i class="bi bi-person-badge"></i></div>
+              <h3>Name Badges & ID Cards</h3>
+            </div>
+            <div class="flip-card-back">
+              <h3>Name Badges & ID Cards</h3>
+              <p>Magnetic badges, engraved name plates, ID solutions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon-wrapper"><i class="bi bi-gift"></i></div>
+              <h3>Promotional Gifts & Branding Items</h3>
+            </div>
+            <div class="flip-card-back">
+              <h3>Promotional Gifts & Branding Items</h3>
+              <p>Pens, mugs, bags, event giveaways, corporate gifts.</p>
+              <a class="btn btn-light btn-sm mt-3" href="https://wa.me/971545741959" target="_blank" rel="noopener" style="color: var(--brand); font-weight: 600; margin-top: 50px;">WhatsApp Us</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="section-actions text-center mt-4">
+        <a class="btn btn-outline-dark btn-round" href="services.php">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features section-padding">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <ul class="why-choose-list grid grid-4 reveal">
+        <li>Corporate quality and materials</li>
+        <li>Fast turnaround and reliable delivery</li>
+        <li>Custom solutions for startups and enterprises</li>
+        <li>Eco-friendly printing options available</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="grid grid-2">
+        <div class="quote-card reveal">
+          <p>Excellent print quality and fast delivery. Highly recommended!</p>
+          <div class="quote-meta">Dubai Client</div>
+        </div>
+        <div class="quote-card reveal">
+          <p>Professional service and creative designs.</p>
+          <div class="quote-meta">Corporate Customer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <img src="D-technoprint%20dubai.webp" alt="D-TechnoPrint" class="footer-logo" style="max-width: 150px; margin-bottom: 15px;">
+      <p>Advertising & Printing Company in Dubai</p>
+      <div class="footer-social">
+        <a class="icon-btn" href="https://wa.me/971545741959" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <div class="footer-links">
+        <a href="index.php">Home</a>
+        <a href="about.php">About Us</a>
+        <a href="portfolio.php">Portfolio</a>
+        <a href="contact.php">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Our Specialties</h4>
+      <div class="footer-links">
+        <a href="services.php">Rubber Stamps Dubai</a>
+        <a href="services.php">Digital & Offset Printing</a>
+        <a href="services.php">Signage & Branding</a>
+        <a href="services.php">Corporate Gifts & Mugs</a>
+        <a href="services.php">Business Cards & Flyers</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="footer-contact-list">
+        <li><a href="https://maps.google.com/?q=54-58+Street+29B+Naif+Dubai" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill"></i> 54-58 Street 29B – Naif – Dubai</a></li>
+        <li><a href="mailto:info@d-technoprint.com"><i class="bi bi-envelope-fill"></i> info@d-technoprint.com</a></li>
+        <li><a href="https://wa.me/971545741959" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> +971 545741959</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container subfooter">
+    <div>© D-TechnoPrint</div>
+    <button class="back-to-top" aria-label="Back to Top">Back to Top <i class="bi bi-arrow-up"></i></button>
+    <div>Designed by <a href="index.php" style="color: inherit; text-decoration: none;">d-technoprint.com</a></div>
+  </div>
+</footer>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="react-carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="animations.js"></script>
+
+</body></html>
