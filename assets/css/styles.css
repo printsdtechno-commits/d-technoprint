@@ -343,9 +343,21 @@ img {
     position: absolute;
     top: 20px;
     right: 20px;
+    width: 40px;
+    height: 40px;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--text-gray);
+    z-index: 1002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-close::before {
+    content: "✕"; /* Close icon */
+    font-size: 2rem;
+    line-height: 1;
   }
   
   .header-cta {
@@ -892,7 +904,7 @@ img {
 
 /* Flexbox Responsiveness */
 @media (max-width: 768px) {
-  .service-item, .service-card, .why-choose-list li {
+  .service-item, .service-card, .why-choose-list li, .flip-card {
     flex: 1 1 100%;
     max-width: 100%;
   }

@@ -25,26 +25,34 @@ document.addEventListener("DOMContentLoaded", function() {
   closeBtn.style.cssText = `
     position: absolute;
     top: max(20px, env(safe-area-inset-top));
-    right: max(30px, env(safe-area-inset-right));
+    right: max(20px, env(safe-area-inset-right));
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     cursor: pointer;
     z-index: 1000001;
     line-height: 1;
     transition: 0.3s;
     padding: 10px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   `;
-  closeBtn.onmouseover = () => closeBtn.style.color = "#bbb";
-  closeBtn.onmouseout = () => closeBtn.style.color = "#fff";
+  closeBtn.onmouseover = () => { closeBtn.style.color = "#bbb"; closeBtn.style.background = "rgba(0,0,0,0.5)"; };
+  closeBtn.onmouseout = () => { closeBtn.style.color = "#fff"; closeBtn.style.background = "rgba(0,0,0,0.2)"; };
   closeBtn.onclick = closeModal;
 
   const modalContent = document.createElement('img');
   modalContent.id = 'modal-image';
   modalContent.style.cssText = `
     display: block;
-    max-width: 90%;
+    max-width: 95%;
     max-height: 80vh;
+    object-fit: contain;
     border-radius: 4px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     animation: zoom 0.4s ease-out;
@@ -53,15 +61,13 @@ document.addEventListener("DOMContentLoaded", function() {
   const captionText = document.createElement('div');
   captionText.id = 'caption';
   captionText.style.cssText = `
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 15px;
     width: 90%;
     text-align: center;
     color: #f1f1f1;
     font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
   `;
 
   // Create Navigation Arrows
@@ -72,20 +78,26 @@ document.addEventListener("DOMContentLoaded", function() {
     top: 50%;
     left: max(20px, env(safe-area-inset-left));
     transform: translateY(-50%);
-    background: transparent;
+    background: rgba(0,0,0,0.2);
     border: none;
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     cursor: pointer;
     z-index: 1000001;
-    padding: 20px;
+    padding: 0;
     transition: 0.3s;
     user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   `;
-  prevBtn.onmouseover = () => prevBtn.style.color = "#bbb";
-  prevBtn.onmouseout = () => prevBtn.style.color = "#fff";
+  prevBtn.onmouseover = () => { prevBtn.style.color = "#bbb"; prevBtn.style.background = "rgba(0,0,0,0.5)"; };
+  prevBtn.onmouseout = () => { prevBtn.style.color = "#fff"; prevBtn.style.background = "rgba(0,0,0,0.2)"; };
 
   const nextBtn = document.createElement('button');
   nextBtn.innerHTML = '&#10095;'; // Right angle quote
@@ -94,20 +106,26 @@ document.addEventListener("DOMContentLoaded", function() {
     top: 50%;
     right: max(20px, env(safe-area-inset-right));
     transform: translateY(-50%);
-    background: transparent;
+    background: rgba(0,0,0,0.2);
     border: none;
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     cursor: pointer;
     z-index: 1000001;
-    padding: 20px;
+    padding: 0;
     transition: 0.3s;
     user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   `;
-  nextBtn.onmouseover = () => nextBtn.style.color = "#bbb";
-  nextBtn.onmouseout = () => nextBtn.style.color = "#fff";
+  nextBtn.onmouseover = () => { nextBtn.style.color = "#bbb"; nextBtn.style.background = "rgba(0,0,0,0.5)"; };
+  nextBtn.onmouseout = () => { nextBtn.style.color = "#fff"; nextBtn.style.background = "rgba(0,0,0,0.2)"; };
 
   // Append elements directly to modal
   modal.appendChild(closeBtn);
@@ -198,9 +216,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     /* Mobile adjustments */
     @media (max-width: 768px) {
-      #modal-image { max-width: 95%; }
-      #caption { font-size: 1rem; }
-      #gallery-modal button { font-size: 35px !important; padding: 5px !important; }
+      #modal-image { max-width: 100%; max-height: 75vh; }
+      #caption { font-size: 0.95rem; width: 95%; margin-top: 10px; }
+      #gallery-modal button { 
+        font-size: 24px !important; 
+        width: 40px !important;
+        height: 40px !important;
+        padding: 0 !important;
+      }
+      /* Adjust close button position for mobile */
+      #gallery-modal span {
+        font-size: 30px !important;
+        width: 40px !important;
+        height: 40px !important;
+        padding: 0 !important;
+      }
     }
   `;
   document.head.appendChild(style);
