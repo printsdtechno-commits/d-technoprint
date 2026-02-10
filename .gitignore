@@ -142,3 +142,4 @@ podman_release.json
 
 .vercel
 .env*.local
+public/
