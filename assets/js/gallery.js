@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function() {
     @media (max-width: 768px) {
       #modal-image { max-width: 95%; }
       #caption { font-size: 1rem; }
-      button { font-size: 35px !important; padding: 5px !important; }
+      #gallery-modal button { font-size: 35px !important; padding: 5px !important; }
     }
   `;
   document.head.appendChild(style);

@@ -61,7 +61,7 @@
         secondaryHref:"https://wa.me/971545741959",
         secondaryText:"WhatsApp Us",
         // bg removed
-        logos: ["assets/Al-Logo.webp", "assets/Arasan.webp", "assets/B2.webp", "assets/Fishspa.webp", "assets/NS-Logo.webp", "assets/Smoke.webp"]
+        logos: ["/assets/brand/Al-Logo.webp", "/assets/brand/Arasan.webp", "/assets/brand/B2.webp", "/assets/brand/Fishspa.webp", "/assets/brand/NS-Logo.webp", "/assets/brand/Smoke.webp"]
       },
       {
         title:"Professional Printing Services",

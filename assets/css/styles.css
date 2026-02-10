@@ -820,10 +820,12 @@ img {
   cursor: pointer;
 }
 
-.service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-  background: #fff; /* Optional: White on hover for contrast */
+@media (hover: hover) {
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    background: #fff;
+  }
 }
 
 .service-item {
@@ -842,9 +844,11 @@ img {
   border: 1px solid #e0e0e0;
 }
 
-.service-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+@media (hover: hover) {
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  }
 }
 
 .service-icon-wrapper {
